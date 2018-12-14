@@ -33,9 +33,9 @@ class NavHeader extends React.Component {
           <div className="nav__menu__links">
             <NavLink to="/" className="nav__menu__links__item--selected">Home</NavLink>
             <NavLink to="/services" className="nav__menu__links__item">Services</NavLink>
-            {/* <NavLink to="/projects" className="nav__menu__links__item">Our Projects</NavLink>
+            <NavLink to="/projects" className="nav__menu__links__item">Our Projects</NavLink>
             <NavLink to="/about" className="nav__menu__links__item">About Us</NavLink>
-            <NavLink to="/contact" className="nav__menu__links__item">Contact</NavLink> */}
+            <NavLink to="/contact" className="nav__menu__links__item">Contact</NavLink>
           </div>
         </nav>
         <div className="jumbotron-area">

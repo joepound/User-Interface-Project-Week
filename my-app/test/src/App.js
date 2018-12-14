@@ -17,11 +17,11 @@ class App extends Component {
         <div className="page-container">          
           <NavHeader/>
           <Switch>
-            <Route path="/" component={HomePage}/>  
+            <Route path="/" component={HomePage} exact/>  
             <Route path="/services" component={Services}/>
-            {/* <Route path="/project" component={Projects}/>
+            <Route path="/projects" component={Projects}/>
             <Route path="/about" component={About}/>
-            <Route path="/contact" component={Contact}/> */}
+            <Route path="/contact" component={Contact}/>
             <Route component={Error}/>
           </Switch>
           <Footer/>
